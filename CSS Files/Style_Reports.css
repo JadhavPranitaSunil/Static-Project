@@ -1,0 +1,313 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+    background: rgb(5, 68, 104); 
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 225px;  
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction : column;
+}
+
+
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+	
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 50px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.before{
+    color: #0c7db1;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+
+
+.image1 {
+position: absolute;
+float: left;
+left: 225px; 
+width: 100%;
+height: 350px;
+border-style: solid;
+}
+
+.text1 {
+  left: 300px;
+  position: absolute;
+  top: 400px;
+  border-style: solid;
+  border: 5px solid black;
+}
+
+.one label {
+  background-color: indigo;
+  color: white;
+  padding: 12px 15px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  left: 350px;
+  position: absolute;
+  top: 700px;
+ 
+}
+
+.btn1 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  left: 340px;
+  position: absolute;
+  top: 760px;
+}
+.btn1:hover {
+  background-color: darkBlue;
+}
+
+.text2 {
+  left: 650px;
+  position: absolute;
+  top: 400px;
+  border-style: solid;
+  border: 5px solid black;
+}
+
+.two label {
+  background-color: indigo;
+  color: white;
+  padding: 12px 15px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  left: 700px;
+  position: absolute;
+  top: 700px;
+ 
+}
+
+.btn2 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  left: 690px;
+  position: absolute;
+  top: 760px;
+}
+.btn2:hover {
+  background-color: darkBlue;
+}
+
+.text3 {
+  left: 1000px;
+  position: absolute;
+  top: 400px;
+  border-style: solid;
+  border: 5px solid black;
+}
+
+.three label {
+  background-color: indigo;
+  color: white;
+  padding: 12px 15px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  left: 1050px;
+  position: absolute;
+  top: 700px;
+ 
+}
+
+.btn3 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  left: 1040px;
+  position: absolute;
+  top: 760px;
+}
+.btn3:hover {
+  background-color: darkBlue;
+}
+
+.text4 {
+  left: 1350px;
+  position: absolute;
+  top: 400px;
+  border-style: solid;
+  border: 5px solid black;
+}
+
+.four label {
+  background-color: indigo;
+  color: white;
+  padding: 12px 15px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  left: 1400px;
+  position: absolute;
+  top: 700px;
+ 
+}
+
+.btn4 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  left: 1390px;
+  position: absolute;
+  top: 760px;
+}
+.btn4:hover {
+  background-color: darkBlue;
+}
+
+.text5 {
+  left: 1700px;
+  position: absolute;
+  top: 400px;
+  border-style: solid;
+  border: 5px solid black;
+}
+
+.five label {
+  background-color: indigo;
+  color: white;
+  padding: 12px 15px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  left: 1750px;
+  position: absolute;
+  top: 700px;
+ 
+}
+
+.btn5 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  left: 1740px;
+  position: relative;
+  top: 760px;
+}
+.btn5:hover {
+  background-color: darkBlue;
+}
+
+
+.text6 {
+  left: 300px;
+  position: absolute;
+  top: 900px;
+  border-style: solid;
+  border: 5px solid black;
+}
+
+.six label {
+  background-color: indigo;
+  color: white;
+  padding: 12px 15px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  left: 350px;
+  position: absolute;
+  top: 1200px;
+ 
+}
+
+.btn6 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  left: 340px;
+  position: absolute;
+  top: 1260px;
+}
+.btn6:hover {
+  background-color: darkBlue;
+}
+
+
+

@@ -1,0 +1,131 @@
+.image{
+	width:100%;
+	height:100%;	
+}
+
+Body {  
+	font-family: Calibri, Helvetica, sans-serif;  
+} 
+
+/*form {   
+        border: 3px solid #f1f1f1; 
+}   
+	
+	
+input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+        font-size: 30px;
+}  
+	
+	
+button {   
+       background-color: royalblue;
+       width: 100px;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+        margin-top: 60px;  
+}  	
+*/
+.text1 {
+  background-image: linear-gradient(blue,lightblue,lightblue);
+  float:left;
+  width: 70%;
+  left: 300px;
+  position: absolute;
+  border-style: solid;
+  top: 150px;
+  font-size: 85px;
+  font-family: cursive;
+  font-weight: bold;
+  text-shadow: 10px;
+}
+
+.text2 {
+  width: 100%;
+  left: 450px;
+  position: absolute;
+  top: 300px;
+  font-size: 55px;
+  font-family: cursive;
+  text-shadow: 10px;
+}
+
+/*.Login {
+  width: 50%;
+  left: 650px;
+  position: absolute;
+  top: 600px;
+  font-size: 45px;
+  font-family: cursive;
+  text-shadow: 10px;
+}
+
+
+.SignUp {
+  width: 50%;
+  left: 800px;
+  position: absolute;
+  top: 600px;
+  font-size: 45px;
+  font-family: cursive;
+  text-shadow: 10px;
+}
+
+.Brief {
+  width: 100%;
+  left: 1200px;
+  position: absolute;
+  top: 600px;
+  font-size: 45px;
+  font-family: cursive;
+  text-shadow: 10px;
+}
+*/
+/*.container2 {   
+	position: absolute;
+	width: 500px;
+	float:left;		
+	border-radius: 17px;  
+	padding-left: 7px;  
+	padding-right: 7px;
+	background-color: white;  
+	top: 150px;
+	left:1000px;
+	height:450px;
+	font-size: 20px;
+}
+
+p{
+	font-size:35px;
+}
+	
+a,button{
+	width: 30%; 
+	display: inline-block;
+	font-size: 25px;
+}
+
+a{
+	font-size: 30px;
+	padding-left: 2px
+}
+
+::placeholder {
+  font-size: 22px;
+}
+
+.wrap{
+	color: transparent;
+	position: absolute;
+    top: 480px;
+    left: 20px;			
+}
+*/
